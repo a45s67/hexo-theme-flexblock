@@ -23,7 +23,7 @@
   <% if (is_archive()) { %>
     <div class="header-content">
       <div class="post-text layout-block layout-padding">
-        <h1 class="title-wrap">归档</h1>
+        <h1 class="title-wrap">歸檔</h1>
         <h2 class="title-sub-wrap">共有<%= site.posts.length %>篇文章</h2>
       </div>
     </div>
@@ -40,7 +40,7 @@
     <div class="header-content">
       <div class="post-text layout-block layout-padding">
         <h1 class="title-wrap"><%= page.category %></h1>
-        <h2 class="title-sub-wrap">当前分类下共有<%= length %>篇文章</h2>
+        <h2 class="title-sub-wrap">當前分類下共有<%= length %>篇文章</h2>
       </div>
     </div>
   <% } %>
@@ -56,7 +56,7 @@
     <div class="header-content">
       <div class="post-text layout-block layout-padding">
         <h1 class="title-wrap"><%= page.tag %></h1>
-        <h2 class="title-sub-wrap">当前标签下共有<%= length %>篇文章</h2>
+        <h2 class="title-sub-wrap">當前標籤下共有<%= length %>篇文章</h2>
       </div>
     </div>
   <% } %>
@@ -68,8 +68,7 @@
         <div class="layout-margin">
           <h1 class="title-wrap"><%= page.title %></h1>
           <h2 class="title-sub-wrap">
-            <strong><%= page.author || config.author %></strong>
-            <span>发布于</span>
+            <span>Posted on</span>
             <%- partial("../_widget/date", { class_name: 'article-date', post: page, date_format: null }) %>
           </h2>
           <%- partial("../_widget/category", { page: page, class_name: 'dark' }) %>

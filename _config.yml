@@ -1,20 +1,19 @@
 # Header
 menu:
-  首页: /
-  友链: /links
-  关于: /about
+  首頁: /
+  關於: /about
 
 # 主页banner图
 banner: https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg
 
 # 站点通知信息
-notice: flex-block主题部分重构，详情查看https://github.com/miiiku/flex-block
+notice: 無新消息
 
 # 作者信息
 author:
-  name: Sukoshi
-  avatar: https://s.gravatar.com/avatar/2d6b803eea37de0257620d5fabee7e64?s=200&r=g&d=retro
-  description: 贵在坚持
+  name: FlyFish
+  avatar: https://i.pinimg.com/564x/e4/c7/22/e4c722ddd398c0f1a1f0e0ba0b1d8f48.jpg
+  description: I have a dream
 
 toc:
   max_depth: 3 # 生成 TOC 的最大深度
@@ -31,7 +30,7 @@ comments:
     appId: 
     appKey: 
     avatar: mm
-    placeholder: 随便说点什么叭～
+    placeholder: 說點什麼
     notify: true
     visitor: true
     pageSize: 10
@@ -39,7 +38,7 @@ comments:
   # docs: https://disqus.com/
   disqus:
     website: 
-    error: 如果你看不到评论，那么就真的看不到评论 w(゜Д゜)w
+    error: Some error occurred 😢.
 
 # dplayer 视频播放
 # docs: http://dplayer.js.org/#/zh-Hans/
@@ -65,19 +64,12 @@ aplayer:
 mathjax:
     enable: true
 
-# 国内备案信息
-beian: 
-
 # 谷歌分析
 google_analytics: 
 # gauges分析
 gauges_analytics: 
-# 百度分析
-baidu_analytics: 
-# 腾讯分析
-tencent_analytics: 
 # 站点ico
-favicon: /favicon.ico
+favicon: /favicon.png
 
 
 # Social Icon
@@ -85,7 +77,5 @@ social_icon:
   enable: true
   icons:
     ins     :
-    zhihu   :
-    weibo   : 
-    github  : https://github.com/miiiku/
-    twitter : https://twitter.com/guanquanhong
+    github  : https://github.com/a45s67/
+    twitter : https://twitter.com/b45s67
